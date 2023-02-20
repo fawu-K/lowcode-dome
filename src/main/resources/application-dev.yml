@@ -1,0 +1,13 @@
+
+SERVLET_CONTEXT_PATH: /
+SERVER_PORT: 8080
+
+#数据库配置
+MYSQL_HOST: localhost
+MYSQL_PORT: 3306
+MYSQL_USERNAME: root
+MYSQL_PASSWORD: root
+DATABASE: lowCode
+
+ENTITY_PATH: com.dome.entity
+MAPPER_PATH: classpath:mapper/*.xml
