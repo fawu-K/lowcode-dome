@@ -33,3 +33,9 @@ logging:
     com.kang: DEBUG
     org.springframework.boot.autoconfigure: error
   config: classpath:logback-boot.xml
+
+# 模板保存位置
+kang:
+  low-code:
+    template-path: ${LOW_CODE.TEMPLATE_PATH}
+

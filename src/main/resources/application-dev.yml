@@ -9,5 +9,9 @@ MYSQL_USERNAME: root
 MYSQL_PASSWORD: root
 DATABASE: lowCode
 
-ENTITY_PATH: com.dome.entity
+ENTITY_PATH: com.test.entity
 MAPPER_PATH: classpath:mapper/*.xml
+
+
+LOW_CODE:
+  TEMPLATE_PATH: test/templates/
